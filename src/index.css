@@ -1,0 +1,11 @@
+@import "tailwindcss";
+
+@keyframes bestiary-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.bestiary-spinner {
+  animation: bestiary-spin 0.9s linear infinite;
+}
