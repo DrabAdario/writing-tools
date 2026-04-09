@@ -31,7 +31,7 @@ const RARITY_THRESHOLDS: { max: number; tier: RarityTier }[] = (() => {
     return { max: acc, tier };
   });
 })();
-
+//
 export const ELEMENTS_BY_RARITY: Record<RarityTier, readonly string[]> = {
   common: [
     "Flame",
